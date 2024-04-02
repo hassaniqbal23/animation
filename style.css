@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+body div {
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	transform: translateY(-7vh);
+	animation: myanim 3s linear;
+	/* background-color: lightblue; */
+	font-size: 40px;
+	color: red;
+	background: transparent;
+}
+
+@keyframes myanim {
+	to {
+		transform: translateY(100vh);
+	}
+}
